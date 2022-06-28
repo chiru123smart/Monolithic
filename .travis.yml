@@ -25,7 +25,7 @@ script:
   - docker tag udagram-api-feed chirayukainya/udagram-api-feed:latest
   - docker tag udagram-api-user chirayukainya/udagram-api-user:latest
   - docker push chirayukainya/udagram-api-feed:latest
-  - docker push chirayukainya/udagram-api-users:latest
+  - docker push chirayukainya/udagram-api-user:latest
   - docker push chirayukainya/udagram-frontend:latest
   - docker push chirayukainya/udagram-reverseproxy:latest
 
