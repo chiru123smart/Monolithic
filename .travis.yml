@@ -24,8 +24,8 @@ script:
   - docker tag udagram-reverseproxy chirayukainya/udagram-reverseproxy:v1
   - docker tag udagram-api-feed chirayukainya/udagram-api-feed:v1
   - docker tag udagram-api-user chirayukainya/udagram-api-user:v1
-  - docker push udagram-api-feed
-  - docker push udagram-api-user
-  - docker push udagram-frontend
-  - docker push udagram-reverseproxy
+  - docker push chirayukainya/udagram-api-feed
+  - docker push chirayukainya/udagram-api-user
+  - docker push chirayukainya/udagram-frontend
+  - docker push chirayukainya/udagram-reverseproxy
 
