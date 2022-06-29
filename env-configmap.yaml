@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  POSTGRESS_HOST: monolithic.chnyxcmusu5d.us-east-2.rds.amazonaws.com
+  POSTGRESS_DB: postgres
+  AWS_BUCKET: monolithic-kainya
+  AWS_REGION: us-east-2
+  AWS_PROFILE: default
+  JWT_SECRET: futvikbonjlnpqgsqsqdvuwvhxvsjvhcxjvsqjdvxjsvhcbihbibibibnjknk
+  URL: http://localhost:8100
+  PORT : "8000"
+metadata:
+  name: env-config
