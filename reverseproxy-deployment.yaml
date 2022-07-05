@@ -5,7 +5,7 @@ metadata:
     service: backend-reverseproxy
   name: backend-reverseproxy
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       service: backend-reverseproxy
@@ -21,7 +21,7 @@ spec:
           resources:
             requests:
               memory: "64Mi"
-              cpu: "250m"
+              cpu: "200m"
             limits:
               memory: "1024Mi"
               cpu: "500m"
